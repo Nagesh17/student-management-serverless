@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "update-todos",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    }, 
+    "address": {
+        "type": "string"
+    },
+    "dob":{
+      "type":"string"
+    }
+  },
+  "required": [
+    "name", 
+    "address",
+    "dob"
+  ],
+  "additionalProperties": false
+}
